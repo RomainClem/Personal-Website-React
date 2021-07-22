@@ -1,0 +1,32 @@
+.container {
+    max-width: 70rem;
+}
+
+.avatar {
+    border-radius: 30%;
+}
+
+a.home {
+    background-color: #212529;
+    color: white;
+    text-decoration: none;
+    transition: background-color 1s ease-out;
+}
+
+.mtu:hover {
+    background-color: #d90725;
+    cursor: pointer;
+}
+.stripe:hover {
+    background-color: #6772e5;
+    cursor: pointer;
+}
+
+.fa-icon {
+    transition: color 1s cubic-bezier(.18,.89,.32,1.28);
+}
+
+.fa-icon:hover {
+    color: #e08e25;
+    cursor: pointer;
+}
