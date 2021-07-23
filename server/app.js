@@ -9,7 +9,7 @@ const app = express();
 app.set('port', process.env.PORT || 5000)
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
-app.use(express.static(path.join(__dirname, 'Client/build')))
+app.use(express.static(path.join(__dirname, 'client/build')))
 
 if (app.get('env') === 'development') {
     app.locals.pretty = true;
@@ -18,7 +18,7 @@ if (app.get('env') === 'development') {
 // The "catchall" handler: for any request that doesn't
 // match one above, send back React's index.html file.
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname+'../Client/build/index.html'));
+    res.sendFile(path.join(__dirname+'../client/build/index.html'));
 });
 
 app.listen(app.get('port'), function(){
