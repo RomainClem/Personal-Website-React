@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "setup": "npm install && cd Client && npm install",
+    "setup": "npm install && cd client && npm install",
     "start": "node server/app.js",
     "server": "nodemon server/app.js",
     "client": "cd Client && npm run start",
