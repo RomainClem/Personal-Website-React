@@ -6,7 +6,7 @@ class Footer extends Component {
             <div className="bg-dark">
                 <div className="wrapper">
                     <footer className="footer mt-auto py-3 text-white">
-                        <span className="">&copy;&nbsp;Romain Clemencon 2021</span>
+                        <p className="text-center">&copy;&nbsp;Romain Clemencon 2021</p>
                     </footer>
                 </div>
             </div>
