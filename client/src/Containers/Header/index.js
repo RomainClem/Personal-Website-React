@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import LiNavLink from '../LiNavLink';
 import './style.css'
 
+/*
+TODO:
+      - Add a navbar to make it more responsive
+ */
+
 class Header extends Component {
     render() {
         return (

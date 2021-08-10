@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faDev, faHtml5, faJava, faJsSquare, faPython} from "@fortawesome/free-brands-svg-icons";
+import {faHtml5, faJava, faJsSquare, faPython} from "@fortawesome/free-brands-svg-icons";
 import {faDatabase} from "@fortawesome/free-solid-svg-icons";
 import CLogo from "../../Assets/images/c-logo.svg";
 

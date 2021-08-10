@@ -1,6 +1,11 @@
 import * as React from 'react'
 import { Link, Route } from 'react-router-dom'
 
+/*
+TODO:
+      - Revise this system to make it work somehow
+ */
+
 class LiNavLink extends React.Component<any, {}> {
     render() {
         const {to, exact, strict, activeClassName, className, activeStyle, style, isActive: getIsActive, ...rest } = this.props;
