@@ -10,8 +10,8 @@ import Footer from './Containers/Footer';
 import Wip from "./Components/Wip";
 
 /*
-TODO: - depcheck client + server to remove unused package
-      - Add custom domain
+TODO:
+      - depcheck client + server to remove unused package
  */
 
 class App extends Component {

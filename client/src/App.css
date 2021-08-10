@@ -8,6 +8,11 @@
     border-radius: 30%;
 }
 
+.skills {
+    background-color: #a7bcd7;
+    text-align: center;
+}
+
 a.home {
     background-color: #212529;
     color: white;
@@ -26,6 +31,10 @@ a.home {
 
 .fa-icon {
     transition: color 1s cubic-bezier(.18,.89,.32,1.28);
+}
+
+.fa-skills {
+    color: #f5f5f5;
 }
 
 .fa-icon:hover {
