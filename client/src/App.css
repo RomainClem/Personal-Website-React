@@ -6,11 +6,11 @@
 
 .avatar {
     border-radius: 30%;
+    max-width: 350px;
 }
 
-.skills {
-    background-color: #a7bcd7;
-    text-align: center;
+.home .bio {
+    max-width: 760px;
 }
 
 a.home {
@@ -40,4 +40,8 @@ a.home {
 .fa-icon:hover {
     color: #e08e25;
     cursor: pointer;
+}
+
+.blue-bg {
+    background-color: #a7bcd7;
 }
