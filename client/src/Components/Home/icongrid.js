@@ -9,14 +9,20 @@ class Icongrid extends Component {
             <div className="wrapper">
                 <div className="px-4 py-5 text-center">
                     <div className="row g-4">
-                        <div className="col">
-                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="https://www.linkedin.com/in/romain-clemencon-85b1b6195/"><FontAwesomeIcon className="fa-icon" icon={faLinkedin} size="9x"/></a>
+                        <div className="icons col">
+                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="https://www.linkedin.com/in/romain-clemencon-85b1b6195/">
+                                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size="9x"/>
+                            </a>
                         </div>
-                        <div className="col">
-                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="https://github.com/RomainClem"><FontAwesomeIcon className="fa-icon" icon={faGithub} size="9x"/></a>
+                        <div className="icons col">
+                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="https://github.com/RomainClem">
+                                <FontAwesomeIcon className="fa-icon" icon={faGithub} size="9x"/>
+                            </a>
                         </div>
-                        <div className="col">
-                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="mailto:romain.clemencon@mycit.ie"><FontAwesomeIcon className="fa-icon" icon={faEnvelope} size="9x"/></a>
+                        <div className="icons col">
+                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="mailto:romain.clemencon@mycit.ie">
+                                <FontAwesomeIcon className="fa-icon" icon={faEnvelope} size="9x"/>
+                            </a>
                         </div>
                     </div>
                 </div>

@@ -57,16 +57,6 @@ a.home {
     }
 }
 
-@media (min-width: 650px) {
-    .me-md-auto {
-        margin-right: auto!important;
-        margin-bottom: 0!important;
-    }
-    .nav-link {
-        margin-bottom: 0!important;
-    }
-}
-
 
 @media only screen and (max-width: 565px) {
     .fa-icon {
@@ -79,5 +69,33 @@ a.home {
     .box {
         margin-right: 40px;
         margin-left: 40px;
+    }
+}
+
+@media (min-width: 650px) {
+    .me-md-auto {
+        margin-right: auto!important;
+        margin-bottom: 0!important;
+    }
+    .nav-link {
+        margin-bottom: 0!important;
+    }
+}
+
+@media (max-width: 455px) {
+    .fa-icon {
+        font-size: 75px;
+    }
+
+    .icons {
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .icons .a {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
