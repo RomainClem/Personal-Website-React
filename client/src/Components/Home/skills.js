@@ -4,11 +4,6 @@ import {faHtml5, faJava, faJsSquare, faPython} from "@fortawesome/free-brands-sv
 import {faDatabase} from "@fortawesome/free-solid-svg-icons";
 import CLogo from "../../Assets/images/c-logo.svg";
 
-/*
-TODO:
-      - fix the responsive problem with the columns
- */
-
 class Skills extends Component {
     render() {
         return (

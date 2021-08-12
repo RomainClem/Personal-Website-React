@@ -4,9 +4,14 @@
     padding: 0 1.5rem;
 }
 
+.profile {
+    max-width: 350px;
+    min-width: 10px;
+}
+
 .avatar {
     border-radius: 30%;
-    max-width: 350px;
+    width: 100%;
 }
 
 .home .bio {
@@ -44,4 +49,26 @@ a.home {
 
 .blue-bg {
     background-color: #a7bcd7;
+}
+
+@media only screen and (max-width: 655px) {
+    .fa-icon {
+        font-size: 20vw;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .fa-icon {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 507px) {
+    .me-md-auto {
+        margin-right: auto!important;
+        margin-bottom: 0!important;
+    }
+    .nav-link {
+        margin-bottom: 0!important;
+    }
 }
