@@ -51,6 +51,19 @@ a.home {
     background-color: #a7bcd7;
 }
 
+.nav-link {
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-link:hover, .nav-link:focus {
+    border-bottom-color: rgba(224, 142, 37, .25);
+}
+
+.nav .active {
+    border-bottom-color: #e08e25;
+}
+
+
 @media only screen and (max-width: 655px) {
     .fa-icon {
         font-size: 20vw;

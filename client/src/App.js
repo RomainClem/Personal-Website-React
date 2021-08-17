@@ -12,7 +12,6 @@ import Wip from "./Components/Wip";
 /*
 TODO:
       - depcheck client + server to remove unused package
-      - Make the application more responsive
  */
 
 class App extends Component {

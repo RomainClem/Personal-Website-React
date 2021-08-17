@@ -10,10 +10,10 @@ class Header extends Component {
                         <a href="/" className="box d-flex align-items-center mb-3 mb-lg-0 me-md-auto text-decoration-none text-white">
                             <span className="fs-3 fw-bold">Romain Clemencon</span>
                         </a>
-                        <ul className="box nav nav-pills fs-5">
-                            <LiNavLink activeClassName='active' to="/">Home</LiNavLink>
-                            <LiNavLink activeClassName='active' to="/Projects">Projects</LiNavLink>
-                            <LiNavLink activeClassName='active' to="/About">About</LiNavLink>
+                        <ul className="box nav fs-5">
+                            <LiNavLink exact activeClassName='active' to="/">Home</LiNavLink>
+                            <LiNavLink exact activeClassName='active' to="/Projects">Projects</LiNavLink>
+                            <LiNavLink exact activeClassName='active' to="/About">About</LiNavLink>
                         </ul>
                     </header>
                 </div>
