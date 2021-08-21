@@ -63,7 +63,6 @@ a.home {
     border-bottom-color: #e08e25;
 }
 
-
 @media only screen and (max-width: 655px) {
     .fa-icon {
         font-size: 20vw;

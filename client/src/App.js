@@ -8,6 +8,7 @@ import Home from './Components/Home';
 import Header from "./Containers/Header";
 import Footer from './Containers/Footer';
 import Wip from "./Components/Wip";
+import Projects from "./Components/Projects";
 
 /*
 TODO:
@@ -23,8 +24,8 @@ class App extends Component {
                 <main className="flex-shrink-0">
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route path="/projects" component={Wip} />
-                        <Route path="/about" component={Wip} />
+                        <Route path="/Projects" component={Wip} />
+                        <Route path="/About" component={Wip} />
                         <Route component={Wip} />
                     </Switch>
                 </main>
