@@ -16,8 +16,8 @@ class Profile extends Component {
                             <h2 className="display-6 fw-bold lh-2 mb-3">Hey, I'm a Student Software Engineer - Looking for an Internship</h2>
                             <p className="lead">
                                 My name is <b>Romain Cl&eacute;men&ccedil;on</b>.
-                                I am a 3<sup>rd</sup> year student for a Bachelor of Science Honours at <a rel="noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>.
-                                I also work as a technical customer support specialist for <a rel="noreferrer" target="_blank" className="home stripe" href="https://stripe.com/ie">Stripe</a> to fund my studies.
+                                I am a 3<sup>rd</sup> year student for a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>.
+                                I also work as a technical customer support specialist for <a rel="noopener noreferrer" target="_blank" className="home stripe" href="https://stripe.com/ie">Stripe</a> to fund my studies.
                             </p>
                         </div>
                     </div>

@@ -17,17 +17,17 @@ class Icongrid extends Component {
                 <div className="px-4 py-5 text-center">
                     <div className="row g-4">
                         <div className="icons col">
-                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="https://www.linkedin.com/in/romainclemencon/">
+                            <a rel="noopener noreferrer"  target="_blank" className="btn mx-lg-auto" href="https://www.linkedin.com/in/romainclemencon/">
                                 <FontAwesomeIcon className="fa-icon" icon={faLinkedin} size="9x"/>
                             </a>
                         </div>
                         <div className="icons col">
-                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="https://github.com/RomainClem">
+                            <a rel="noopener noreferrer"  target="_blank" className="btn mx-lg-auto" href="https://github.com/RomainClem">
                                 <FontAwesomeIcon className="fa-icon" icon={faGithub} size="9x"/>
                             </a>
                         </div>
                         <div className="icons col">
-                            <a rel="noreferrer" target="_blank" className="btn mx-lg-auto" href="mailto:romain.clemencon@mycit.ie">
+                            <a rel="noopener noreferrer"  target="_blank" className="btn mx-lg-auto" href="mailto:romain.clemencon@mycit.ie">
                                 <FontAwesomeIcon className="fa-icon" icon={faEnvelope} size="9x"/>
                             </a>
                         </div>

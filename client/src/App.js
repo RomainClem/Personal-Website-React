@@ -21,10 +21,10 @@ class App extends Component {
         <Router>
             <div className="container-fluid p-0">
                 <Header/>
-                <main className="flex-shrink-0">
+                <main className="">
                     <Switch>
                         <Route exact path="/" component={Home} />
-                        <Route path="/Projects" component={Wip} />
+                        <Route path="/Projects" component={Projects} />
                         <Route path="/About" component={Wip} />
                         <Route component={Wip} />
                     </Switch>
