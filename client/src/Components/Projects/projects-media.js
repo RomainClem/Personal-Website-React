@@ -7,6 +7,7 @@ import MediaPersonalWebsite from "./medias/personal-website";
 import MediaAuthenticationWebsite from "./medias/authentication-website";
 import MediaEnvironmentalWebsite from "./medias/environmental-website";
 import MediaAliceWebsite from "./medias/alice-website";
+import MediaSuperheroList from "./medias/superhero-list";
 
 const ProjectsMedia = () => {
     return (
@@ -34,6 +35,9 @@ const ProjectsMedia = () => {
             </div>
             <div className="filter-item web col-12">
                 <MediaAliceWebsite />
+            </div>
+            <div className="filter-item python col-12">
+                <MediaSuperheroList />
             </div>
         </div>
     )
