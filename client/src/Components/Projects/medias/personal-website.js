@@ -17,7 +17,7 @@ const MediaPersonalWebsite = (props) => {
                             Description
                         </button>
                         <Collapse in={open}>
-                            <div id="example-collapse-text" className="mt-2 border border-2 rounded border-warning ">
+                            <div id="example-collapse-text" className="mt-2 rounded description">
                                 My personal website created with the knowledge I acquired during my 1st and 2nd year at MTU.
                                     I also learned how to use React as an additional as an added challenge.
                             </div>

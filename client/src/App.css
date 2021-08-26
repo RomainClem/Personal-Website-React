@@ -92,6 +92,10 @@ a.home {
     max-height: 166px;
 }
 
+.description {
+    border: 2px solid #e08e25 !important;
+}
+
 @media only screen and (max-width: 655px) {
     .fa-icon {
         font-size: 20vw;
