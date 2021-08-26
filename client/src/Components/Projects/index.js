@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import Isotope from "isotope-layout";
 import ProjectsMedia from "./projects-media";
+import './button.css';
 /*
 TODO:
       - install isotope-layout
@@ -37,7 +38,7 @@ const Projects = (props) => {
     const handleClick = () => {
         setTimeout( function() {
             isotope.current.arrange()
-        }, 300 );
+        }, 350 );
     };
 
     return (
