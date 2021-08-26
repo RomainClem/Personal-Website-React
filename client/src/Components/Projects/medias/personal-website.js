@@ -1,28 +1,41 @@
-import React from "react";
+import React, {useState} from "react";
 import img from "./personal-website-img.png";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import {faGlobe} from "@fortawesome/free-solid-svg-icons";
+import Collapse from 'react-bootstrap/Collapse'
 
-const MediaPersonalWebsite = () => {
+const MediaPersonalWebsite = (props) => {
+    const [open, setOpen] = useState(false);
+
     return (
-        <div className="card mb-3">
-            <div className="row g-0">
+        <div className="card my-3">
+            <div className="row">
                 <div className="col-8">
                     <div className="card-body">
                         <h5 className="card-title">Personal Website <span className="fw-light p-0 m-0 fs-6">July-2021</span></h5>
-                        <p className="card-text">My personal website created with the knowledge I acquired during my 1st and 2nd year at MTU.
-                        I also learned how to use React as an additional as an added challenge.</p>
+                        <button className="btn btn-sm btn-outline-warning" onClick={() =>{
+                            setOpen(!open)
+                            props.isoArrange()
+                        }} aria-controls="example-collapse-text" aria-expanded={open}>
+                            Description
+                        </button>
+                        <Collapse in={open}>
+                            <div id="example-collapse-text card-text">
+                                My personal website created with the knowledge I acquired during my 1st and 2nd year at MTU.
+                                    I also learned how to use React as an additional as an added challenge.
+                            </div>
+                        </Collapse>
                         <p className="card-text"><small className="text-muted">Node.js, Express, React, Bootstrap</small>
                         </p>
                         <div className="row justify-content-start">
-                            <div className="col-md-auto">
-                                <a className="col btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href="https://github.com/RomainClem/personal-website-react">
+                            <div className="col-auto">
+                                <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href="https://github.com/RomainClem/personal-website-react">
                                     <FontAwesomeIcon icon={faGithub} /> Repository
                                 </a>
                             </div>
-                            <div className="col-md-auto">
-                                <a className="col btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href="https://www.romainclemencon.com/">
+                            <div className="col-auto">
+                                <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href="https://www.romainclemencon.com/">
                                     <FontAwesomeIcon icon={faGlobe} /> Website
                                 </a>
                             </div>
@@ -30,8 +43,8 @@ const MediaPersonalWebsite = () => {
 
                     </div>
                 </div>
-                <div className="col-4">
-                    <img src={img} className="img-fluid media-project" alt="application home page"/>
+                <div className="col-4 d-flex justify-content-end">
+                    <img src={img} className="flex img-fluid media-project" alt="application home page"/>
                 </div>
             </div>
         </div>

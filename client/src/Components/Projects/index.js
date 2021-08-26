@@ -1,17 +1,17 @@
 import React, { useRef } from 'react';
 import Isotope from "isotope-layout";
 import ProjectsMedia from "./projects-media";
-
-
 /*
 TODO:
       - install isotope-layout
       - Add a few projects and use cleaner github Repos
+      - fix col md not nice in smaller width
  */
 
-const Projects = () => {
+const Projects = (props) => {
     // init one ref to store the future isotope object
     const isotope = useRef()
+
     // store the filter keyword in a state
     const [filterKey, setFilterKey] = React.useState('*')
 
@@ -34,6 +34,12 @@ const Projects = () => {
 
     const handleFilterKeyChange = key => () => setFilterKey(key)
 
+    const handleClick = () => {
+        setTimeout( function() {
+            isotope.current.arrange()
+        }, 300 );
+    };
+
     return (
         <div className="wrapper">
             <div className="row">
@@ -45,13 +51,10 @@ const Projects = () => {
                             <button type="button" className={ "btn iso-button " + ("web"===filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</button>
                             <button type="button" className={ "btn iso-button " + ("python"===filterKey ? 'active' : '')} onClick={handleFilterKeyChange('python')}>Python</button>
                         </div>
-
                 </div>
-                <div className="isotope col-md-8 row py-5">
-                    <div className="isotope-item">
-                        <div className="filter-container">
-                            <ProjectsMedia />
-                        </div>
+                <div className="isotope col-md-8 py-5">
+                    <div className="isotope-item filter-container row">
+                        <ProjectsMedia isoArrange={handleClick}/>
                     </div>
                 </div>
             </div>

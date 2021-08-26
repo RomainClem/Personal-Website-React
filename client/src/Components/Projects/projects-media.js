@@ -9,11 +9,11 @@ import MediaEnvironmentalWebsite from "./medias/environmental-website";
 import MediaAliceWebsite from "./medias/alice-website";
 import MediaSuperheroList from "./medias/superhero-list";
 
-const ProjectsMedia = () => {
+const ProjectsMedia = (props) => {
     return (
         <div className="media">
             <div className="filter-item web col-12">
-                <MediaPersonalWebsite/>
+                <MediaPersonalWebsite isoArrange={props.isoArrange} />
             </div>
             <div className="filter-item java col-12">
                 <MediaCovid19 />

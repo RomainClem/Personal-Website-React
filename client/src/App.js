@@ -9,6 +9,7 @@ import Header from "./Containers/Header";
 import Footer from './Containers/Footer';
 import Wip from "./Components/Wip";
 import Projects from "./Components/Projects";
+import About from "./Components/About";
 
 /*
 TODO:
@@ -25,7 +26,7 @@ class App extends Component {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route path="/Projects" component={Projects} />
-                        <Route path="/About" component={Wip} />
+                        <Route path="/About" component={About} />
                         <Route component={Wip} />
                     </Switch>
                 </main>
