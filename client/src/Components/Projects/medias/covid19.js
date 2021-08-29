@@ -10,7 +10,7 @@ const MediaCovid19 = () => {
                 <div className="col-8">
                     <div className="card-body">
                         <h5 className="card-title">Covid GUI w/ DataBase <span className="fw-light p-0 m-0 fs-6">May-2021</span></h5>
-                        <p className="card-text">This was part of a school project to apply our learning of JavaFx.
+                        <p className="card-text">Academic project to apply our learning of JavaFx.
                         We had to use the Model-View-Controller convention. I also chose to use and learn Maven as part of this project.</p>
                         <p className="card-text"><small className="text-muted">Java, JavaFX, Maven, JPA, JUnit, JDBC</small>
                         </p>

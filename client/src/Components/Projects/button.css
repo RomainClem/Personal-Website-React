@@ -53,7 +53,8 @@
 
 .btn-outline-primary.disabled,
 .btn-outline-primary:disabled {
-    color: #7cc;
+    color: #f14e4e;
+    border-color: #f14e4e;
     background-color: transparent
 }
 

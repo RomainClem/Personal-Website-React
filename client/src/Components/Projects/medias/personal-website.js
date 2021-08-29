@@ -19,7 +19,7 @@ const MediaPersonalWebsite = (props) => {
                         <Collapse in={open}>
                             <div id="example-collapse-text" className="mt-2 rounded description">
                                 My personal website created with the knowledge I acquired during my 1st and 2nd year at MTU.
-                                    I also learned how to use React as an additional as an added challenge.
+                                    I also learned how to use React as an additional challenge.
                             </div>
                         </Collapse>
                         <p className="card-text my-1"><small className="text-muted">Node.js, Express, React, Bootstrap</small></p>
