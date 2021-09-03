@@ -40,7 +40,7 @@ const MediaPersonalWebsite = (props) => {
                 </div>
                 <div className={"col-4 d-flex align-items-center "}>
                     <div className="pe-1">
-                        <img src={img} className={"flex img-fluid rounded "+ (open ? '' : 'media-project')} alt="application home page"/>
+                        <img src={img} className={"flex img-fluid rounded shadow "+ (open ? '' : 'media-project')} alt="application home page"/>
                     </div>
                 </div>
             </div>
