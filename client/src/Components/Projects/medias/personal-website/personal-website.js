@@ -11,7 +11,7 @@ const MediaPersonalWebsite = (props) => {
         <div className="card my-3">
             <div className="row">
                 <div className="col-8">
-                    <div className="card-body">
+                    <div className="card-body pe-0">
                         <h5 className="card-title">Personal Website <span className="fw-light p-0 m-0 fs-6">July-2021</span></h5>
                         <button className={"btn btn-sm btn-outline-warning " + (open ? 'active' : '')} onClick={() =>{setOpen(!open);props.isoArrange();}} aria-controls="example-collapse-text" aria-expanded={open}>
                             Description
@@ -29,7 +29,7 @@ const MediaPersonalWebsite = (props) => {
                                     <FontAwesomeIcon icon={faGithub} /> Repository
                                 </a>
                             </div>
-                            <div className="col-auto">
+                            <div className="col-auto pe-0">
                                 <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href="https://www.romainclemencon.com/">
                                     <FontAwesomeIcon icon={faGlobe} /> Website
                                 </a>
@@ -39,7 +39,9 @@ const MediaPersonalWebsite = (props) => {
                     </div>
                 </div>
                 <div className={"col-4 d-flex align-items-center "}>
-                    <img src={img} className={"flex img-fluid rounded "+ (open ? '' : 'media-project')} alt="application home page"/>
+                    <div className="pe-1">
+                        <img src={img} className={"flex img-fluid rounded "+ (open ? '' : 'media-project')} alt="application home page"/>
+                    </div>
                 </div>
             </div>
         </div>
