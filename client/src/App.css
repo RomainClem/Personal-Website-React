@@ -97,7 +97,7 @@ a.home {
     border: 2px solid #e08e25 !important;
 }
 
-@media (max-width: 560px){
+@media (max-width: 570px){
     .fa-icon {
         font-size: 12vmin;
     }
