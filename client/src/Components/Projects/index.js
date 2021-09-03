@@ -4,12 +4,7 @@ import ProjectsMedia from "./projects-media";
 import './button.css';
 /*
 TODO:
-      - install isotope-layout
-      - Add a few projects and use cleaner github Repos
-      - fix col md not nice in smaller width
-      - fix disable button in card
       - Add more filters and higher level of filtering in cards
-      - Add directory for each cards
       - Make picture widen on click with a Caroussel of pictures
       - Fix aspect ratio and size for thumbnail
  */

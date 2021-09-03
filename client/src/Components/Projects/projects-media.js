@@ -1,13 +1,13 @@
 import React from "react";
-import MediaCovid19 from "./medias/covid19";
-import MediaBottomUp from "./medias/bottom-up";
-import MediaShortestPath from "./medias/shortest-path";
-import MediaTwitterBot from "./medias/twitter-bot";
-import MediaPersonalWebsite from "./medias/personal-website";
-import MediaAuthenticationWebsite from "./medias/authentication-website";
-import MediaEnvironmentalWebsite from "./medias/environmental-website";
-import MediaAliceWebsite from "./medias/alice-website";
-import MediaSuperheroList from "./medias/superhero-list";
+import MediaCovid19 from "./medias/covid19/covid19";
+import MediaBottomUp from "./medias/bottom-up/bottom-up";
+import MediaShortestPath from "./medias/shortest-path/shortest-path";
+import MediaTwitterBot from "./medias/twitter-bot/twitter-bot";
+import MediaPersonalWebsite from "./medias/personal-website/personal-website";
+import MediaAuthenticationWebsite from "./medias/authentication-website/authentication-website";
+import MediaEnvironmentalWebsite from "./medias/environmental-website/environmental-website";
+import MediaAliceWebsite from "./medias/alice-website/alice-website";
+import MediaSuperheroList from "./medias/superhero-list/superhero-list";
 
 const ProjectsMedia = (props) => {
     return (
