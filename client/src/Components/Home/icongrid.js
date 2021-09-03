@@ -14,30 +14,30 @@ TODO:
 class Icongrid extends Component {
     render() {
         return (
-            <div className="wrapper">
-                <div className="px-4 py-5 text-center">
-                    <div className="row ">
+            <div className="wrapper icon-wrap">
+
+                    <div className="row px-4 py-5 text-center">
                         <div className="icons col">
-                            <a rel="noopener noreferrer"  target="_blank" className="btn" href="https://www.linkedin.com/in/romainclemencon/">
-                                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} />
+                            <a rel="noopener noreferrer"  target="_blank" className="btn px-0" href="https://www.linkedin.com/in/romainclemencon/">
+                                <FontAwesomeIcon className="fa-icon" icon={faLinkedin}/>
                             </a>
                         </div>
                         <div className="icons col">
-                            <a rel="noopener noreferrer"  target="_blank" className="btn" href="https://github.com/RomainClem">
-                                <FontAwesomeIcon className="fa-icon" icon={faGithub} />
+                            <a rel="noopener noreferrer"  target="_blank" className="btn px-0" href="https://github.com/RomainClem">
+                                <FontAwesomeIcon className="fa-icon" icon={faGithub}/>
                             </a>
                         </div>
                         <div className="icons col">
-                            <a rel="noopener noreferrer"  target="_blank" className="btn" href="mailto:romain.clemencon@mycit.ie">
+                            <a rel="noopener noreferrer"  target="_blank" className="btn px-0" href="mailto:romain.clemencon@mycit.ie">
                                 <FontAwesomeIcon className="fa-icon" icon={faEnvelope}/>
                             </a>
                         </div>
                         <div className="icons col">
-                            <Link to={CV} className="btn" rel="noopener noreferrer"  target="_blank" >
+                            <Link to={CV} className="btn px-0" rel="noopener noreferrer"  target="_blank" >
                                 <FontAwesomeIcon className="fa-icon" icon={faFilePdf}/>
                             </Link>
                         </div>
-                    </div>
+
                 </div>
             </div>
         )
