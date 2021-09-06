@@ -19,18 +19,16 @@ class App extends Component {
   render() {
     return (
         <Router>
-            <div className="container-fluid p-0">
-                <Header/>
-                <main className="">
-                    <Switch>
-                        <Route exact path="/" component={Home} />
-                        <Route path="/Projects" component={Projects} />
-                        <Route path="/About" component={Wip} />
-                        <Route component={Wip} />
-                    </Switch>
-                </main>
-                <Footer/>
-            </div>
+            <Header/>
+            <main className="container-fluid p-0 flex-shrink-0">
+                <Switch>
+                    <Route exact path="/" component={Home} />
+                    <Route path="/Projects" component={Projects} />
+                    <Route path="/About" component={Wip} />
+                    <Route component={Wip} />
+                </Switch>
+            </main>
+            <Footer/>
         </Router>
     )
   }
