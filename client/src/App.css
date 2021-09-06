@@ -102,6 +102,18 @@ a.home {
     border: 2px solid #e08e25 !important;
 }
 
+.icon-link {
+    font-size: 0.8em;
+    color: #ffffff;
+    background-color: #212529;
+    transition: background-color 1s cubic-bezier(.18,.89,.32,1.28);
+}
+
+.icon-link:hover {
+    background-color: #e08e25;
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 649px) {
     .box {
         margin-right: 40px;
