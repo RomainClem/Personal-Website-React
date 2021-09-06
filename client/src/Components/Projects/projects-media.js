@@ -11,35 +11,35 @@ import MediaSuperheroList from "./medias/superhero-list/superhero-list";
 
 const ProjectsMedia = (props) => {
     return (
-        <div className="media">
-            <div className="filter-item web col-12">
-                <MediaPersonalWebsite isoArrange={props.isoArrange} />
-            </div>
-            <div className="filter-item java col-12">
-                <MediaCovid19 />
-            </div>
-            <div className="filter-item python col-12">
-                <MediaTwitterBot />
-            </div>
-            <div className="filter-item java col-12">
-                <MediaBottomUp />
-            </div>
-            <div className="filter-item java col-12">
-                <MediaShortestPath />
-            </div>
-            <div className="filter-item web col-12">
-                <MediaAuthenticationWebsite />
-            </div>
-            <div className="filter-item web col-12">
-                <MediaEnvironmentalWebsite />
-            </div>
-            <div className="filter-item web col-12">
-                <MediaAliceWebsite />
-            </div>
-            <div className="filter-item python col-12">
-                <MediaSuperheroList />
-            </div>
-        </div>
+        <ul className="media ">
+            <li className="filter-item web">
+                <MediaPersonalWebsite isoArrange={props.isoArrange}/>
+            </li>
+            <li className="filter-item java">
+                <MediaCovid19 isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item python">
+                <MediaTwitterBot isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item java">
+                <MediaBottomUp isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item java">
+                <MediaShortestPath isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item web">
+                <MediaAuthenticationWebsite isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item web">
+                <MediaEnvironmentalWebsite isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item web">
+                <MediaAliceWebsite isoArrange={props.isoArrange}  />
+            </li>
+            <li className="filter-item python">
+                <MediaSuperheroList isoArrange={props.isoArrange}  />
+            </li>
+        </ul>
     )
 }
 

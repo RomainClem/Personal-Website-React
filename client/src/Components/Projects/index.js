@@ -9,7 +9,7 @@ TODO:
       - Fix aspect ratio and size for thumbnail
  */
 
-const Projects = (props) => {
+const Projects = () => {
     // init one ref to store the future isotope object
     const isotope = useRef()
 
@@ -33,12 +33,18 @@ const Projects = (props) => {
             : isotope.current.arrange({filter: `.${filterKey}`})
     }, [filterKey])
 
+
     const handleFilterKeyChange = key => () => setFilterKey(key)
 
     const handleClick = () => {
+        // For description click
         setTimeout( function() {
             isotope.current.arrange()
         }, 350 );
+        // Checking if there was a container size update
+        setTimeout( function() {
+            isotope.current.arrange()
+        }, 1000 );
     };
 
     return (
@@ -54,8 +60,8 @@ const Projects = (props) => {
                         </div>
                 </div>
                 <div className="isotope col-md-8 py-5">
-                    <div className="isotope-item filter-container row">
-                        <ProjectsMedia isoArrange={handleClick}/>
+                    <div className="isotope-item filter-container ">
+                        <ProjectsMedia isoArrange={handleClick} />
                     </div>
                 </div>
             </div>
