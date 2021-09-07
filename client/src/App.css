@@ -80,7 +80,7 @@ a.home {
     max-height: 147px;
     max-width: 147px;
     font-size: 7vw;
-    border-radius: 20px;
+    border-radius: 10%;
     color: #ffffff;
     background-color: #212529;
     transition: background-color 1s cubic-bezier(.18,.89,.32,1.28);
