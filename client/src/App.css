@@ -66,12 +66,33 @@ a.home {
 
 .fa-icon {
     transition: color 1s cubic-bezier(.18,.89,.32,1.28);
-    font-size: 14vmin;
+    font-size: 14vw;
 }
 
 .fa-icon:hover {
     color: #e08e25;
     cursor: pointer;
+}
+
+.icon-link {
+    width: 10vw;
+    height: 10vw;
+    max-height: 147px;
+    max-width: 147px;
+    font-size: 7vw;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: #212529;
+    transition: background-color 1s cubic-bezier(.18,.89,.32,1.28);
+}
+
+.icon-link:hover {
+    background-color: #e08e25;
+    cursor: pointer;
+}
+
+.icon-wrap {
+    max-height: 314px;
 }
 
 .blue-bg {
@@ -102,16 +123,13 @@ a.home {
     border: 2px solid #e08e25 !important;
 }
 
-.icon-link {
-    font-size: 0.8em;
-    color: #ffffff;
-    background-color: #212529;
-    transition: background-color 1s cubic-bezier(.18,.89,.32,1.28);
-}
-
-.icon-link:hover {
-    background-color: #e08e25;
-    cursor: pointer;
+@media screen and (min-width: 1200px) {
+    .icon-link{
+        font-size: 96px;
+    }
+    .fa-icon {
+        font-size: 168px;
+    }
 }
 
 @media only screen and (max-width: 649px) {
