@@ -75,6 +75,7 @@ a.home {
 }
 
 .icon-link {
+    font-weight: 600;
     width: 10vw;
     height: 10vw;
     max-height: 147px;
