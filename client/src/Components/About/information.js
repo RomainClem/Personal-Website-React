@@ -13,7 +13,7 @@ const Information = () => {
                     </div>
                     <div className="bio col-lg-9 mx-auto">
                         <p className="fs-5">
-
+                            lorem ipsum
                         </p>
                     </div>
                 </div>

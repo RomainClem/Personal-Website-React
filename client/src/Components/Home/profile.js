@@ -13,13 +13,25 @@ class Profile extends Component {
                             </div>
                         </div>
                         <div className="bio col-lg-7 mx-auto">
-                            <h2 className="display-6 fw-bold lh-2 mb-3">
-                                Student Software Engineer - Looking for an Internship
+                            <div className="blue-bg-transparent">
+                                <h5 className="m-0 ps-1 font-monospace text-white">
+                                    Hi, my name is
+                                </h5>
+                            </div>
+                            <h2 className="display-6 fw-bold">
+                                Romain Cl&eacute;men&ccedil;on
+                            </h2>
+                            <div className="orange-bg-transparent">
+                                <h5 className="m-0 ps-1 font-monospace text-white">
+                                    and I am
+                                </h5>
+                            </div>
+                            <h2 className="display-6 fw-bold mb-3">
+                                Looking for an Internship
                             </h2>
                             <p className="fs-5">
-                                Hi, my name is <b>Romain Cl&eacute;men&ccedil;on</b>.
-                                I am a 3<sup>rd</sup> year student for a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>.
-                                I also work as a technical customer support specialist for <a rel="noopener noreferrer" target="_blank" className="home stripe" href="https://stripe.com/ie">Stripe</a> to fund my studies.
+                                I'm a 3<sup>rd</sup> year <b>Software Engineer</b> student for a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>.
+                                I also work as a technical customer support specialist for <a rel="noopener noreferrer" target="_blank" className="home stripe" href="https://stripe.com/">Stripe</a> to fund my studies.
                             </p>
                         </div>
                     </div>
