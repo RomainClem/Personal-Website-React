@@ -96,10 +96,16 @@ a.home {
     max-height: 314px;
 }
 
+.skew-y {
+    transform: skewY(-5.5deg);
+}
+.skew-y > * {
+    transform: skewY(5.5deg);
+}
+
 .blue-bg {
     background-color: #a7bcd7;
 }
-
 .nav-link {
     border-bottom: .25rem solid transparent;
 }

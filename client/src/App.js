@@ -9,6 +9,7 @@ import Header from "./Containers/Header";
 import Footer from './Containers/Footer';
 import Wip from "./Components/Wip";
 import Projects from "./Components/Projects";
+import About from "./Components/About"
 
 /*
 TODO:

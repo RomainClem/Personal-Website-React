@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Icongrid from "./icongrid";
+import IconGrid from "./icongrid";
 import Profile from "./profile";
 import Skills from "./skills";
 
@@ -9,7 +9,7 @@ class Home extends Component {
             <div className="home">
                 <Profile/>
                 <Skills/>
-                <Icongrid/>
+                <IconGrid/>
             </div>
         )
     }

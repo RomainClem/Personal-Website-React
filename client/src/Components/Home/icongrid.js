@@ -5,7 +5,7 @@ import {faEnvelope, faFilePdf} from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom'
 import CV from "../../Assets/Romain_Clemencon_CV.pdf";
 
-class Icongrid extends Component {
+class IconGrid extends Component {
     render() {
         return (
             <div className="wrapper icon-wrap">
@@ -39,4 +39,4 @@ class Icongrid extends Component {
     }
 }
 
-export default Icongrid;
+export default IconGrid;

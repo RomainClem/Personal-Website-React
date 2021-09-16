@@ -7,7 +7,7 @@ import CLogo from "../../Assets/images/c-logo.svg";
 class Skills extends Component {
     render() {
         return (
-            <div className="blue-bg">
+            <div className="blue-bg skew-y">
                 <div className="wrapper">
                     <div className="px-4 py-5 text-center">
                         <div className="row g-4">
