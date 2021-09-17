@@ -13,7 +13,7 @@ class Profile extends Component {
                             </div>
                         </div>
                         <div className="bio col-lg-7 mx-auto">
-                            <div className="blue-bg-transparent">
+                            <div className="blue-bg">
                                 <h5 className="m-0 ps-1 font-monospace text-white">
                                     Hi, my name is
                                 </h5>
