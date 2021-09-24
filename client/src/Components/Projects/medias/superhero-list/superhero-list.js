@@ -17,7 +17,7 @@ const MediaSuperheroList = (props) => {
                         </button>
                         <Collapse in={open}>
                             <div id="collapse-description" className="mt-2 rounded description">
-                                My very Project during the first semester of my first year. Learning the fundamentals of programming with Python
+                                My very first Project during the first semester of my first year. Learning the fundamentals of programming with Python
                             </div>
                         </Collapse>
                         <p className="card-text my-1"><small className="text-muted">Python</small></p>

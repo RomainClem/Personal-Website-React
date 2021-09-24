@@ -144,6 +144,19 @@ a.home {
     border: 2px solid #e08e25 !important;
 }
 
+.about-list::marker {
+    content: "»";
+    font-size: 1em;
+    color: #e08e25;
+}
+.about-list:nth-child(odd)::marker {
+    color: #85a5de;
+}
+.about-list {
+    padding-left: 20px;
+
+}
+
 @media screen and (min-width: 1200px) {
     .icon-link{
         font-size: 96px;
