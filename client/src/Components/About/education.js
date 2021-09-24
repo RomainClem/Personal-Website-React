@@ -35,7 +35,7 @@ const Education = () => {
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
                             <h4 className="m-0 ps-1 font-monospace text-white text-center">
-                                Cork, ireland
+                                Cork, Ireland
                             </h4>
                         </div>
                     </div>
