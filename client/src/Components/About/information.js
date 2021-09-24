@@ -19,7 +19,7 @@ const Information = () => {
                             </p>
                             <p>
                                 I am also always looking forward to learning something new.
-                                I believe there can be numerous solutions to the same problem, which is particularly relevant in the continually changing field of technology.
+                                I believe there can be several solution to any given problem, which is particularly relevant in the ever changing field of technology.
                             </p>
                         </div>
                     </div>
