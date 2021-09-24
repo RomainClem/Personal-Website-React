@@ -7,9 +7,11 @@ import './App.css';
 import Home from './Components/Home';
 import Header from "./Containers/Header";
 import Footer from './Containers/Footer';
-import Wip from "./Components/Wip";
 import Projects from "./Components/Projects";
-import About from "./Components/About"
+import About from "./Components/About";
+import Secret from "./Components/Secret"
+import Wip from "./Components/Wip";
+
 
 /*
 TODO:
@@ -26,7 +28,9 @@ class App extends Component {
                     <Route exact path="/" component={Home} />
                     <Route path="/Projects" component={Projects} />
                     <Route path="/About" component={About} />
-                    <Route component={Wip} />
+                    <Route path="/Secret" component={Secret} />
+
+                    <Route component={Home} />
                 </Switch>
             </main>
             <Footer/>
