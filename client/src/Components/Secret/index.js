@@ -6,7 +6,7 @@ import rat from '../../Assets/images/rat.gif'
 class Secret extends Component {
     render() {
         return (
-            <div className="row my-5">
+            <div className="wrapper row px-0 py-5">
                 <div className="col-md-4 d-flex justify-content-center p-0">
                     <img src={floppa} className="flex img-fluid" alt="Monkey typing on typewriter" loading="lazy"/>
                 </div>
