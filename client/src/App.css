@@ -94,6 +94,7 @@ a.home {
 
 .skew-y {
     transform: skewY(-11deg);
+    overflow: hidden;
 }
 .skew-y > * {
     transform: skewY(5.5deg);
