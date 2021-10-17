@@ -23,11 +23,11 @@ class Profile extends Component {
                             </h2>
                             <div className="orange-bg-transparent">
                                 <h5 className="m-0 ps-1 font-monospace text-white">
-                                    and I am
+                                    and I am a
                                 </h5>
                             </div>
                             <h2 className="display-6 fw-bold mb-3">
-                                Looking for an Internship
+                                Student Software Engineer
                             </h2>
                             <p className="fs-5">
                                 I'm a 3<sup>rd</sup> year <b>Software Engineer</b> student for a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>.
