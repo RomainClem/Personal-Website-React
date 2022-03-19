@@ -14,7 +14,7 @@ class Profile extends Component {
                         </div>
                         <div className="bio col-lg-7 mx-auto">
                             <div className="blue-bg">
-                                <h5 className="m-0 ps-1 font-monospace text-white">
+                                <h5 className="m-0 ps-1 pt-1 font-monospace text-white">
                                     Hi, my name is
                                 </h5>
                             </div>
@@ -22,16 +22,16 @@ class Profile extends Component {
                                 Romain Cl&eacute;men&ccedil;on
                             </h2>
                             <div className="orange-bg-transparent">
-                                <h5 className="m-0 ps-1 font-monospace text-white">
+                                <h5 className="m-0 ps-1 pt-1 font-monospace text-white">
                                     and I am a
                                 </h5>
                             </div>
                             <h2 className="display-6 fw-bold mb-3">
-                                Student Software Engineer
+                                Student + Intern Software Engineer
                             </h2>
                             <p className="fs-5">
-                                I'm a 3<sup>rd</sup> year <b>Software Engineer</b> student for a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>.
-                                I also work as a technical customer support specialist for <a rel="noopener noreferrer" target="_blank" className="home stripe" href="https://stripe.com/">Stripe</a> to fund my studies.
+                                I'm a 3<sup>rd</sup> year <b>Software Engineer</b> student dping a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>,
+                                and a Software Engineer intern for <a rel="noopener noreferrer" target="_blank" className="home trellix" href="https://www.trellix.com/">Trellix</a>.
                             </p>
                         </div>
                     </div>
