@@ -31,8 +31,8 @@ const ProjectCard = (props) => {
                             </div>
                             {props.elements.website.active && (
                                 <div className="col-auto pe-0">
-                                    <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer"
-                                        target="_blank" href={props.elements.website.url} {...(props.elements.website.disabled) ? 'disabled' : ''}>
+                                    <a className={"btn btn-outline-primary my-1 mr-1 btn-sm " + ((props.elements.website.disabled) ? 'disabled' : '')} rel="noopener noreferrer"
+                                        target="_blank" href={props.elements.website.url} >
                                         <FontAwesomeIcon icon={faGlobe} /> Website
                                     </a>
                                 </div>

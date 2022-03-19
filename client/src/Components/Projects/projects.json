@@ -16,6 +16,90 @@
             "img":"personal-website-img.png"
         },
         {
+            "title":"JavaScript game",
+            "type":"web",
+            "purpose":"",
+            "date":"December-2019",
+            "desc":"First time with vanilla JavaScript. This is a JavaScript game project with an Alice in Wonderland theme.",
+            "skills":"HTML5, CSS3, JavaScript (vanilla)",
+            "repo":"https://github.com/RomainClem/alicejs.github.io",
+            "website": {
+                "active":true,
+                "url":"https://romainclem.github.io/alicejs.github.io/",
+                "disabled":false
+            },
+            "img":"alice-website-img.png"
+        },{
+            "title":"Authentication website",
+            "type":"web",
+            "purpose":"",
+            "date":"November-2020",
+            "desc":"Authentication website made without Passport. Initially I wanted to use cookies for session authentication. But due to lack of time, LocalStorage was use instead.",
+            "skills":"Node.js, Express, Bootstrap",
+            "repo":"https://github.com/RomainClem/Node.js-authentication-website",
+            "website": {
+                "active":true,
+                "url":"",
+                "disabled":true
+            },
+            "img":"authentication-website-img.png"
+        },{
+            "title":"",
+            "type":"",
+            "purpose":"",
+            "date":"",
+            "desc":"",
+            "skills":"",
+            "repo":"",
+            "website": {
+                "active":false,
+                "url":"",
+                "disabled":true
+            },
+            "img":"rat.gif"
+        },{
+            "title":"",
+            "type":"",
+            "purpose":"",
+            "date":"",
+            "desc":"",
+            "skills":"",
+            "repo":"",
+            "website": {
+                "active":false,
+                "url":"",
+                "disabled":true
+            },
+            "img":"rat.gif"
+        },{
+            "title":"",
+            "type":"",
+            "purpose":"",
+            "date":"",
+            "desc":"",
+            "skills":"",
+            "repo":"",
+            "website": {
+                "active":false,
+                "url":"",
+                "disabled":true
+            },
+            "img":"rat.gif"
+        },{
+            "title":"",
+            "type":"",
+            "purpose":"",
+            "date":"",
+            "desc":"",
+            "skills":"",
+            "repo":"",
+            "website": {
+                "active":false,
+                "url":"",
+                "disabled":true
+            },
+            "img":"rat.gif"
+        },{
             "title":"",
             "type":"",
             "purpose":"",
