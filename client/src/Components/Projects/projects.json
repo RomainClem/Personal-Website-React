@@ -44,75 +44,89 @@
             },
             "img":"authentication-website-img.png"
         },{
-            "title":"",
-            "type":"",
+            "title":"Cutting stock problem",
+            "type":"java",
             "purpose":"",
-            "date":"",
-            "desc":"",
-            "skills":"",
-            "repo":"",
+            "date":"April-2021",
+            "desc":"Algorithm using a bottom-up dynamic programming approach to solve a cutting-stock problem.",
+            "skills":"Java, Dynamic Programming",
+            "repo":"https://github.com/RomainClem/Bottom-Up-Cut-revenue-and-type",
             "website": {
                 "active":false,
                 "url":"",
                 "disabled":true
             },
-            "img":"rat.gif"
+            "img":"bottom-up-img.png"
         },{
-            "title":"",
-            "type":"",
+            "title":"Covid GUI w/ DataBase",
+            "type":"java",
             "purpose":"",
-            "date":"",
-            "desc":"",
-            "skills":"",
-            "repo":"",
+            "date":"May-2021",
+            "desc":"Academic project to apply our learning of JavaFx. We had to use the Model-View-Controller convention. I also chose to use and learn Maven as part of this project.",
+            "skills":"Java, JavaFX, Maven, JPA, JUnit, JDBC",
+            "repo":"https://github.com/RomainClem/Covid-GUI-DB-Maven-JPA",
             "website": {
                 "active":false,
                 "url":"",
                 "disabled":true
             },
-            "img":"rat.gif"
+            "img":"covid19-home.png"
         },{
-            "title":"",
-            "type":"",
+            "title":"Environmental website",
+            "type":"web",
             "purpose":"",
-            "date":"",
-            "desc":"",
-            "skills":"",
-            "repo":"",
+            "date":"November-2019",
+            "desc":"First website I have ever made. It was part of my 1st year module about Web Development. This is a pure Html5 website with a single CSS3 file (part of restriction for the assignment).",
+            "skills":"HTML5, CSS3, Font Awesome",
+            "repo":"https://github.com/RomainClem/romainclem.github.io",
             "website": {
-                "active":false,
-                "url":"",
-                "disabled":true
+                "active":true,
+                "url":"https://romainclem.github.io/",
+                "disabled":false
             },
-            "img":"rat.gif"
+            "img":"environmental-website-img.png"
         },{
-            "title":"",
-            "type":"",
+            "title":"Shortest path problem",
+            "type":"java",
             "purpose":"",
-            "date":"",
-            "desc":"",
-            "skills":"",
-            "repo":"",
+            "date":"April-2021",
+            "desc":"Algorithm using a bottom-up dynamic programming approach to find the shortest path between two cells in a matrix of size n.",
+            "skills":"Java, Dynamic Programming",
+            "repo":"https://github.com/RomainClem/Shortest-Path-Matrix-Fixed-Cost",
             "website": {
                 "active":false,
                 "url":"",
                 "disabled":true
             },
-            "img":"rat.gif"
+            "img":"shortest-path-img.png"
         },{
-            "title":"",
-            "type":"",
+            "title":"Super Hero List",
+            "type":"python",
             "purpose":"",
-            "date":"",
-            "desc":"",
-            "skills":"",
-            "repo":"",
+            "date":"November-2019",
+            "desc":"My very first Project during the first semester of my first year. Learning the fundamentals of programming with Python.",
+            "skills":"Python",
+            "repo":"https://github.com/RomainClem/super-hero-python-list",
             "website": {
                 "active":false,
                 "url":"",
                 "disabled":true
             },
-            "img":"rat.gif"
+            "img":"superhero-list-img.png"
+        },{
+            "title":"Twitter Bot",
+            "type":"python",
+            "purpose":"",
+            "date":"April-2021",
+            "desc":"A very simple script to mess around and learn how to use the twitter API with Tweepy.",
+            "skills":"Python, tweepy",
+            "repo":"https://github.com/RomainClem/badTwitterBot",
+            "website": {
+                "active":false,
+                "url":"",
+                "disabled":true
+            },
+            "img":"twitter-bot-img.png"
         }
     ]
 }

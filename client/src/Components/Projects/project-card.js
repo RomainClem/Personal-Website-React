@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +17,7 @@ const ProjectCard = (props) => {
                             Description
                         </button>
                         <Collapse in={open}>
-                            <div id="collapse-description" className="mt-2 rounded description">
+                            <div id="collapse-description" className="mt-2 rounded description ps-1">
                                 {props.elements.desc}
                             </div>
                         </Collapse>
