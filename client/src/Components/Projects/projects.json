@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title":"Personal Website",
+            "type":"web",
+            "purpose":"",
+            "date":"July-2021",
+            "desc":"My personal website created with the knowledge I acquired during my 1st and 2nd year at MTU. I also learned how to use React as an additional challenge.",
+            "skills":"Node.js, Express, React, Bootstrap",
+            "repo":"https://github.com/RomainClem/personal-website-react",
+            "website": {
+                "active":true,
+                "url":"https://www.romainclemencon.com/",
+                "disabled":false
+            },
+            "img":"personal-website-img.png"
+        },
+        {
+            "title":"",
+            "type":"",
+            "purpose":"",
+            "date":"",
+            "desc":"",
+            "skills":"",
+            "repo":"",
+            "website": {
+                "active":false,
+                "url":"",
+                "disabled":true
+            },
+            "img":"rat.gif"
+        }
+    ]
+}

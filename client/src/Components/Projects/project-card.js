@@ -5,46 +5,45 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import Collapse from 'react-bootstrap/Collapse';
 
 
-const ProjectCard = (elements, props) => {
+const ProjectCard = (props) => {
     const [open, setOpen] = useState(false);
     return (
         <div className="card mt-3">
             <div className="row">
                 <div className="col-8">
                     <div className="card-body pe-0">
-                        <h5 className="card-title">{elements.title} <span className="fw-light p-0 m-0 fs-6">{elements.date}</span></h5>
+                        <h5 className="card-title">{props.elements.title} <span className="fw-light p-0 m-0 fs-6">{props.elements.date}</span></h5>
                         <button className={"btn btn-sm btn-outline-warning " + (open ? 'active' : '')} onClick={() => { setOpen(!open); props.isoArrange(); }} aria-controls="collapse-description" aria-expanded={open}>
                             Description
                         </button>
                         <Collapse in={open}>
                             <div id="collapse-description" className="mt-2 rounded description">
-                                {elements.description}
+                                {props.elements.desc}
                             </div>
                         </Collapse>
-                        <p className="card-text my-1"><small className="text-muted">{elements.skills}</small></p>
+                        <p className="card-text my-1"><small className="text-muted">{props.elements.skills}</small></p>
 
                         <div className="row justify-content-start">
                             <div className="col-auto">
-                                <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href={elements.repo}>
+                                <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer" target="_blank" href={props.elements.repo}>
                                     <FontAwesomeIcon icon={faGithub} /> Repository
                                 </a>
                             </div>
-                            {elements.website && (
+                            {props.elements.website.active && (
                                 <div className="col-auto pe-0">
-                                    <a className="btn btn-outline-primary my-1 mr-1 btn-sm"  rel="noopener noreferrer" 
-                                    target="_blank" href={elements.website.url} {...(elements.website.disabled) ? 'disabled' : ''}>
+                                    <a className="btn btn-outline-primary my-1 mr-1 btn-sm" rel="noopener noreferrer"
+                                        target="_blank" href={props.elements.website.url} {...(props.elements.website.disabled) ? 'disabled' : ''}>
                                         <FontAwesomeIcon icon={faGlobe} /> Website
                                     </a>
                                 </div>
                             )}
-
                         </div>
 
                     </div>
                 </div>
                 <div className="col-4 d-flex align-items-center">
                     <div className="pe-1">
-                        <img src={elements.img} onLoad={props.isoArrange()} className={"flex img-fluid rounded shadow " + (open ? '' : 'media-project')} alt="application home page" />
+                        <img src={require("./images/" + props.elements.img)} onLoad={props.isoArrange()} className={"flex img-fluid rounded shadow " + (open ? '' : 'media-project')} alt="application home page" />
                     </div>
                 </div>
             </div>
