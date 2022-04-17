@@ -182,6 +182,10 @@ a.home {
     padding-left: 20px;
 }
 
+.filter-container {
+    transition: height 1s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+}
+
 @media screen and (min-width: 1200px) {
     .icon-link {
         font-size: 96px;

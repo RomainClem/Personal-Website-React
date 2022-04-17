@@ -61,7 +61,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className="isotope col-md-8 pt-5">
-                        <div className="isotope-item filter-container ">
+                        <div className="isotope-item filter-container">
                             <ProjectsMedia isoArrange={handleClick} />
                         </div>
                     </div>

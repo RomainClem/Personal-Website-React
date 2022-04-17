@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import LiNavLink from '../LiNavLink';
 import { Link, Route } from 'react-router-dom'
 
 class Header extends Component {
