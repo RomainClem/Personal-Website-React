@@ -29,7 +29,7 @@ class IconGrid extends Component {
                         <div className="icons col d-flex align-items-center justify-content-center">
                             <Link to={CV} className="btn px-0" rel="noopener noreferrer"  target="_blank" >
                                 <div className="mx-auto icon-link d-flex align-items-center justify-content-center">
-                                    <p className="mb-0 ">CV</p>
+                                    <p>CV</p>
                                 </div>
                             </Link>
                         </div>

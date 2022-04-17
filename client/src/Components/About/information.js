@@ -9,7 +9,7 @@ const Information = () => {
                     <div className="bio col-md-9 mx-auto">
                         <div className="blue-bg">
                             <h3 className="m-0 ps-1 text-white">
-                                Who am I?
+                                About me
                             </h3>
                         </div>
                         <div className="fs-5 pt-2">

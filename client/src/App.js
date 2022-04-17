@@ -9,10 +9,7 @@ import Header from "./Containers/Header";
 import Footer from './Containers/Footer';
 import Projects from "./Components/Projects";
 import About from "./Components/About";
-import Secret from "./Components/Secret"
-import Wip from "./Components/Wip";
-
-
+import HashHandler from './Containers/HashHandler';
 /*
 TODO:
       - depcheck client + server to remove unused package
@@ -23,15 +20,11 @@ class App extends Component {
     return (
         <Router>
             <Header/>
+            <HashHandler/>
             <main className="container-fluid p-0 flex-shrink-0">
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route path="/Projects" component={Projects} />
-                    <Route path="/About" component={About} />
-                    <Route path="/Secret" component={Secret} />
-
-                    <Route component={Home} />
-                </Switch>
+              <Home/>
+              <Projects/>
+              <About/>
             </main>
             <Footer/>
         </Router>

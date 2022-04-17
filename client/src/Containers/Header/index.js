@@ -15,8 +15,8 @@ class Header extends Component {
                         </Route>
                         <ul className="box nav fs-5">
                             <LiNavLink exact activeClassName='active' to="/">Home</LiNavLink>
-                            <LiNavLink exact activeClassName='active' to="/Projects">Projects</LiNavLink>
-                            <LiNavLink exact activeClassName='active' to="/About">About</LiNavLink>
+                            <LiNavLink exact activeClassName='active' to="/#Projects">Projects</LiNavLink>
+                            <LiNavLink exact activeClassName='active' to="/#About">About</LiNavLink>
                         </ul>
                     </div>
                 </div>

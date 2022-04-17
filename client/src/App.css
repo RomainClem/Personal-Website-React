@@ -56,11 +56,13 @@ a.home {
     background-color: #a7bcd7;
     color: white;
 }
+
 .iso-button:focus,
 .iso-button:active,
 .iso-button.active {
     background-color: #e08e25;
 }
+
 .iso-button:hover {
     color: white;
     background-color: #e08e25;
@@ -68,9 +70,10 @@ a.home {
 }
 
 .fa-icon {
-    transition: color 1s cubic-bezier(.18,.89,.32,1.28);
+    transition: color 1s cubic-bezier(.18, .89, .32, 1.28);
     font-size: 14vw;
 }
+
 .fa-icon:hover {
     color: #e08e25;
     cursor: pointer;
@@ -78,16 +81,17 @@ a.home {
 
 .icon-link {
     font-weight: 600;
-    width: 10vw;
-    height: 10vw;
+    width: 12vw;
+    height: 12vw;
     max-height: 147px;
     max-width: 147px;
     font-size: 7vw;
     border-radius: 10%;
     color: #ffffff;
     background-color: #212529;
-    transition: background-color 1s cubic-bezier(.18,.89,.32,1.28);
+    transition: background-color 1s cubic-bezier(.18, .89, .32, 1.28);
 }
+
 .icon-link:hover {
     background-color: #e08e25;
     cursor: pointer;
@@ -101,9 +105,11 @@ a.home {
     transform: skewY(-11deg);
     overflow: hidden;
 }
-.skew-y > * {
+
+.skew-y>* {
     transform: skewY(5.5deg);
 }
+
 .anti-skew-y {
     transform: skewY(5.5deg);
 }
@@ -111,26 +117,33 @@ a.home {
 .blue-bg {
     background-color: #a7bcd7;
 }
+
 .blue-bg-transparent {
     background-color: rgba(167, 188, 215, 0.7);
 }
+
 .blue-bg-light-transparent {
     background-color: rgba(167, 188, 215, 0.9);
 }
+
 .orange-bg {
     background-color: #e08e25;
 }
+
 .orange-bg-transparent {
-    background-color: rgba(224, 142, 37,0.6);
+    background-color: rgba(224, 142, 37, 0.6);
 }
+
 .orange-bg-light-transparent {
-    background-color: rgba(224, 142, 37,0.5);
+    background-color: rgba(224, 142, 37, 0.5);
 }
 
 .nav-link {
     border-bottom: .25rem solid transparent;
 }
-.nav-link:hover, .nav-link:focus {
+
+.nav-link:hover,
+.nav-link:focus {
     border-bottom-color: rgba(224, 142, 37, .25);
 }
 
@@ -155,16 +168,17 @@ a.home {
     font-size: 1em;
     color: #e08e25;
 }
+
 .about-list:nth-child(odd)::marker {
     color: #85a5de;
 }
+
 .about-list {
     padding-left: 20px;
-
 }
 
 @media screen and (min-width: 1200px) {
-    .icon-link{
+    .icon-link {
         font-size: 96px;
     }
     .fa-icon {
@@ -190,14 +204,12 @@ a.home {
 }
 
 @media (max-width: 455px) {
-
     .icons {
         margin-right: auto;
         margin-left: auto;
         padding-right: 0;
         padding-left: 0;
     }
-
     .icons .a {
         padding-right: 0;
         padding-left: 0;
