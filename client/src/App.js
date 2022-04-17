@@ -17,9 +17,9 @@ TODO:
  */
 
 const App = () => {
-  const [refHome, inViewHome] = useInView();
-  const [refProject, inViewProject] = useInView();
-  const [refAbout, inViewAbout] = useInView();
+  const [refHome, inViewHome] = useInView({threshold: 0.3});
+  const [refProject, inViewProject] = useInView({threshold: 0.3});
+  const [refAbout, inViewAbout] = useInView({threshold: 0.3});
 
   return (
     <Router>
