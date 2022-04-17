@@ -10,7 +10,7 @@ TODO:
       - Fix aspect ratio and size for thumbnail
  */
 
-const Projects = () => {
+const Projects = (props) => {
     // init one ref to store the future isotope object
     const isotope = useRef()
 
@@ -49,7 +49,7 @@ const Projects = () => {
     };
 
     return (
-        <div className="project" id="#Projects">
+        <div className="project" id="#Projects" ref={props.observer}>
             <div className="wrapper">
                 <div className="row pt-4">
                     <div className="col-md-4 section-heading text-center px-4 pt-5">

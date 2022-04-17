@@ -1,38 +1,38 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import { useInView } from "react-cool-inview";
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { useInView } from 'react-intersection-observer';
 
-import './App.css';
 
-import Home from './Components/Home';
+import "./App.css";
+
+import Home from "./Components/Home";
 import Header from "./Containers/Header";
-import Footer from './Containers/Footer';
+import Footer from "./Containers/Footer";
 import Projects from "./Components/Projects";
 import About from "./Components/About";
-import HashHandler from './Containers/HashHandler';
+import HashHandler from "./Containers/HashHandler";
 /*
 TODO:
       - depcheck client + server to remove unused package
  */
 
 const App = () => {
-  const { observe, inView } = useInView();
+  const [refHome, inViewHome] = useInView();
+  const [refProject, inViewProject] = useInView();
+  const [refAbout, inViewAbout] = useInView();
 
-  
-    
-    return (
-        <Router>
-            <Header/>
-            <HashHandler/>
-            <main className="container-fluid p-0 flex-shrink-0">
-              <Home/>
-              <Projects/>
-              <About/>
-            </main>
-            <Footer/>
-        </Router>
-    )
-  
-}
+  return (
+    <Router>
+      <Header viewers={[inViewHome, inViewProject, inViewAbout]}/>
+      <HashHandler />
+      <main className="container-fluid p-0 flex-shrink-0">
+        <Home observer={refHome} />
+        <Projects observer={refProject} />
+        <About observer={refAbout} />
+      </main>
+      <Footer />
+    </Router>
+  );
+};
 
 export default App;
