@@ -11,6 +11,7 @@ ul {
 .profile {
     max-width: 350px;
     min-width: 10px;
+    padding-bottom: 3rem!important;
 }
 
 .avatar {
@@ -40,7 +41,7 @@ a.home {
 }
 
 .trellix:hover {
-    background-color: #00a5ff;
+    background-color: #2814ff;
     cursor: pointer;
 }
 
@@ -183,6 +184,12 @@ a.home {
     }
     .fa-icon {
         font-size: 168px;
+    }
+}
+
+@media (max-width: 991px) {
+    .profile {
+        padding-bottom: 0rem!important;
     }
 }
 

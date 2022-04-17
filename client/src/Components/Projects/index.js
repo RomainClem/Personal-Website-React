@@ -50,17 +50,17 @@ const Projects = () => {
     return (
         <div className="project" id="#Projects">
             <div className="wrapper">
-                <div className="row">
+                <div className="row pt-4">
                     <div className="col-md-4 section-heading text-center px-4 pt-5">
-                        <h2 className="display-5 fw-bold">Projects</h2>
-                        <div className="btn-group sticky-top pt-2" role="group">
+                        <h2 className="display-5 fw-bold pt-5">Projects</h2>
+                        <div className="btn-group sticky-top pt-3" role="group">
                             <button type="button" className={"btn iso-button " + ("*" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('*')}>All</button>
                             <button type="button" className={"btn iso-button " + ("java" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('java')}>Java</button>
                             <button type="button" className={"btn iso-button " + ("web" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</button>
                             <button type="button" className={"btn iso-button " + ("python" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('python')}>Python</button>
                         </div>
                     </div>
-                    <div className="isotope col-md-8 py-5">
+                    <div className="isotope col-md-8 pt-5">
                         <div className="isotope-item filter-container ">
                             <ProjectsMedia isoArrange={handleClick} />
                         </div>

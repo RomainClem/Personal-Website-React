@@ -5,8 +5,8 @@ class Profile extends Component {
     render() {
         return (
             <div className="wrapper">
-                <div className="home col-md px-4 py-5">
-                    <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div className="home col-md px-4 pt-5">
+                    <div className="row flex-lg-row-reverse align-items-center g-5 pt-3 pb-5">
                         <div className="col-lg-5">
                             <div className="profile mx-auto">
                                 <img className="avatar border shadow-lg" src={me} alt="It's me!"/>

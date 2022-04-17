@@ -13,8 +13,8 @@ class Home extends Component {
         return (
             <div className="home">
                 <Profile/>
-                <Skills/>
                 <IconGrid/>
+                <Skills/>
             </div>
         )
     }
