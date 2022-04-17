@@ -30,8 +30,8 @@ class Profile extends Component {
                                 Student + Intern Software Engineer
                             </h2>
                             <p className="fs-5">
-                                I'm a 3<sup>rd</sup> year <b>Software Engineer</b> student dping a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu" href="https://www.mtu.ie/">MTU Cork</a>,
-                                and a Software Engineer intern for <a rel="noopener noreferrer" target="_blank" className="home trellix" href="https://www.trellix.com/">Trellix</a>.
+                                I'm a 3<sup>rd</sup> year <b>Software Engineer</b> student doing a Bachelor of Science Honours at <a rel="noopener noreferrer" target="_blank" className="home mtu px-1" href="https://www.mtu.ie/">MTU Cork</a>,
+                                and a Software Engineer intern for <a rel="noopener noreferrer" target="_blank" className="home trellix px-1" href="https://www.trellix.com/">Trellix</a>.
                             </p>
                         </div>
                     </div>

@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import Isotope from "isotope-layout";
 import ProjectsMedia from "./projects-media";
 import './button.css';
+import { Link } from 'react-router-dom';
 /*
 TODO:
       - Add more filters and higher level of filtering in cards
@@ -54,10 +55,10 @@ const Projects = () => {
                     <div className="col-md-4 section-heading text-center px-4 pt-5">
                         <h2 className="display-5 fw-bold pt-5">Projects</h2>
                         <div className="btn-group sticky-top" role="group">
-                            <button type="button" className={"btn iso-button " + ("*" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('*')}>All</button>
-                            <button type="button" className={"btn iso-button " + ("java" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('java')}>Java</button>
-                            <button type="button" className={"btn iso-button " + ("web" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</button>
-                            <button type="button" className={"btn iso-button " + ("python" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('python')}>Python</button>
+                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("*" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('*')}>All</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("java" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('java')}>Java</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("web" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("python" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('python')}>Python</Link>
                         </div>
                     </div>
                     <div className="isotope col-md-8 pt-5">
