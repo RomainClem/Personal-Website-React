@@ -14,7 +14,7 @@ class LiNavLink extends React.Component {
                     const isActive = !!(getIsActive ? getIsActive(match, location) : match)
                     return (
                         <li className={"nav-item"}>
-                            <Link className={"nav-link px-2 text-white " + (isActive ? [activeClassName, className].join('') : className)}  to={to} {...rest} />
+                            <Link className={"nav-link px-2 py-1 text-white " + (isActive ? [activeClassName, className].join('') : className)}  to={to} {...rest} />
                         </li>
                     )
                 }}

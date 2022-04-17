@@ -2,6 +2,10 @@ ul {
     list-style-type: none;
 }
 
+body {
+    padding-top: 74px;
+}
+
 .wrapper {
     max-width: 70rem;
     margin: 0 auto;
@@ -194,6 +198,9 @@ a.home {
 }
 
 @media only screen and (max-width: 649px) {
+    body {
+        padding-top: 127px;
+    }
     .box {
         margin-right: 40px;
         margin-left: 40px;

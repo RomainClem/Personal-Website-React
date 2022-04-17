@@ -6,9 +6,9 @@ const Experience = () => {
                 <div className="row flex-lg-row align-items-center">
                     <div className="bio col-lg-9 mx-auto">
                         <div className="blue-bg">
-                            <h3 className="m-0 ps-1 text-white">
+                            <h2 className="m-0 ps-1 text-white">
                                 Professional Experience
-                            </h3>
+                            </h2>
                         </div>
                         <div className="orange-bg-transparent mt-4">
                             <h4 className="m-0 ps-1 text-white">

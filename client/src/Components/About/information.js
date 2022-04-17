@@ -8,9 +8,9 @@ const Information = () => {
                 <div className="row flex-lg-row align-items-center">
                     <div className="bio col-md-9 mx-auto">
                         <div className="blue-bg">
-                            <h3 className="m-0 ps-1 text-white">
+                            <h2 className="m-0 ps-1 text-white">
                                 About me
-                            </h3>
+                            </h2>
                         </div>
                         <div className="fs-5 pt-2">
                             <p>
