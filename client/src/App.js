@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import { Route } from 'react-router';
+import { useInView } from "react-cool-inview";
 
 import './App.css';
 
@@ -15,8 +15,11 @@ TODO:
       - depcheck client + server to remove unused package
  */
 
-class App extends Component {
-  render() {
+const App = () => {
+  const { observe, inView } = useInView();
+
+  
+    
     return (
         <Router>
             <Header/>
@@ -29,7 +32,7 @@ class App extends Component {
             <Footer/>
         </Router>
     )
-  }
+  
 }
 
 export default App;
