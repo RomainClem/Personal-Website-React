@@ -53,7 +53,7 @@ const Projects = () => {
                 <div className="row pt-4">
                     <div className="col-md-4 section-heading text-center px-4 pt-5">
                         <h2 className="display-5 fw-bold pt-5">Projects</h2>
-                        <div className="btn-group sticky-top pt-3" role="group">
+                        <div className="btn-group sticky-top" role="group">
                             <button type="button" className={"btn iso-button " + ("*" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('*')}>All</button>
                             <button type="button" className={"btn iso-button " + ("java" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('java')}>Java</button>
                             <button type="button" className={"btn iso-button " + ("web" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</button>

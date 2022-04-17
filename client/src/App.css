@@ -55,6 +55,7 @@ a.home {
 
 .btn-group {
     min-width: 232px;
+    padding-top: 84px;
 }
 
 .iso-button {
@@ -186,6 +187,22 @@ a.home {
     transition: height 1s cubic-bezier(0.4, 0, 0.2, 1) 0s;
 }
 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgba(167, 188, 215, 0.6)), color-stop(0.86, rgba(224, 142, 37, 0.6)));
+}
+
 @media screen and (min-width: 1200px) {
     .icon-link {
         font-size: 96px;
@@ -208,6 +225,9 @@ a.home {
     .box {
         margin-right: 40px;
         margin-left: 40px;
+    }
+    .btn-group {
+        padding-top: 10px;
     }
 }
 
