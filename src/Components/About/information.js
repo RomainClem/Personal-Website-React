@@ -18,8 +18,7 @@ const Information = () => {
                                 I strive in challenging environments and have a proven track record thus far for delivering work and college results through effective problem-solving, communication, and collaboration.
                             </p>
                             <p>
-                                I am also always looking forward to learning something new.
-                                I believe there can be several solution to any given problem, which is particularly relevant in the ever changing field of technology.
+                                I am always looking forward to learning something new. I believe there can be several solutions to any given problem, which is particularly relevant in the ever changing field of technology.
                             </p>
                         </div>
                     </div>
