@@ -28,11 +28,12 @@ class Skills extends Component {
                                 <div className="col col-12 col-sm-4">
                                     <FontAwesomeIcon className="fa-skills " icon={faJsSquare} size="4x"/>
                                     <h2>JavaScript</h2>
-                                    <p>Node.js, Express, React</p>
+                                    <p>Node.js, Express, React, Isotope</p>
                                 </div>
                                 <div className="col col-12 col-sm-4">
                                     <FontAwesomeIcon className="fa-skills " icon={faPython} size="4x"/>
                                     <h2>Python</h2>
+                                    <p>Numpy, Pandas, scikit-learn</p>
                                 </div>
                                 <div className="col col-12 col-sm-4">
                                     <FontAwesomeIcon className="fa-skills " icon={faHtml5} size="4x"/>
