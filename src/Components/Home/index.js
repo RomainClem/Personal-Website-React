@@ -12,7 +12,7 @@ const Home = (props) => {
     return (
         <div className="home" ref={props.observer}>
             <Profile />
-            
+            <IconGrid />
             <Skills />
         </div>
     );
