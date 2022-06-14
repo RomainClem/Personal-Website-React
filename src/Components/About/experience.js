@@ -41,9 +41,9 @@ const Experience = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="orange-bg-transparent mt-2">
-                            <h4 className="m-0 ps-1 font-monospace text-white text-center">
+                            <div className="m-0 ps-1 date-fit font-monospace text-white text-center">
                                 Jan 2022 – Present
-                            </h4>
+                            </div>
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
                             <h4 className="m-0 ps-1 font-monospace text-white text-center">
@@ -79,9 +79,9 @@ const Experience = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="orange-bg-transparent mt-2">
-                            <h4 className="m-0 ps-1 font-monospace text-white text-center">
+                            <div className="m-0 ps-1 date-fit font-monospace text-white text-center">
                                 Jul 2018 – Dec 2021
-                            </h4>
+                            </div>
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
                             <h4 className="m-0 ps-1 font-monospace text-white text-center">

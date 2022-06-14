@@ -30,9 +30,9 @@ const Education = () => {
                     </div>
                     <div className="col-lg-3">
                         <div className="orange-bg-transparent mt-2">
-                            <h4 className="m-0 ps-1 font-monospace text-white text-center">
+                            <div className="m-0 ps-1 date-fit font-monospace text-white text-center">
                                 Sep 2019 – Present
-                            </h4>
+                            </div>
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
                             <h4 className="m-0 ps-1 font-monospace text-white text-center">
