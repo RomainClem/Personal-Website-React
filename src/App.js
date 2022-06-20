@@ -20,9 +20,6 @@ const App = () => {
   const [refHome, inViewHome] = useInView({threshold: 0.3});
   const [refProject, inViewProject] = useInView({threshold: 0.3});
   const [refAbout, inViewAbout] = useInView({threshold: 0.2});
-  console.log(inViewHome);
-  console.log(inViewProject);
-  console.log(inViewAbout);
   return (
     <Router>
       <Header viewers={[inViewHome, inViewProject, inViewAbout]}/>
