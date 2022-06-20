@@ -233,6 +233,16 @@ a.home {
     .btn-group {
         padding-top: 10px;
     }
+    .name {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+        margin: 0;
+        padding: 0;
+    }
+    #root {
+        margin-top: -65px;
+    }
 }
 
 @media (min-width: 650px) {
