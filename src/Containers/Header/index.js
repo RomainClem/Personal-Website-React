@@ -5,7 +5,7 @@ const Header = (props) => {
     return (
         <nav className="bg-dark fixed-top">
             <div className="wrapper">
-                <div className="d-flex flex-wrap justify-content-center py-3">
+                <div className="d-flex flex-wrap justify-content-center pb-2">
                     <Route>
                         <Link to="/" className="box d-flex align-items-center mb-3 mb-lg-0 me-md-auto text-decoration-none text-white name">
                             <span className="fs-3 fw-bold">Romain Clemencon</span>

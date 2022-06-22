@@ -3,7 +3,7 @@ ul {
 }
 
 body {
-    padding-top: 74px;
+    padding-top: 50px;
 }
 
 .wrapper {
@@ -224,7 +224,7 @@ a.home {
 
 @media only screen and (max-width: 649px) {
     body {
-        padding-top: 127px;
+        padding-top: 50px;
     }
     .box {
         margin-right: 40px;
@@ -239,9 +239,6 @@ a.home {
         height: 0;
         margin: 0;
         padding: 0;
-    }
-    #root {
-        margin-top: -65px;
     }
 }
 
@@ -265,5 +262,8 @@ a.home {
     .icons .a {
         padding-right: 0;
         padding-left: 0;
+    }
+    .wrapper {
+        padding: 0 1rem;
     }
 }
