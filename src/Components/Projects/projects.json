@@ -126,6 +126,20 @@
                 "disabled": true
             },
             "img": "twitter-bot-img.png"
+        }, {
+            "title": "Medi Predict",
+            "type": "python",
+            "purpose": "",
+            "date": "Dec-2021",
+            "desc": "A RESTful API built with Flask for a machine learning application, to predict a diagnosis for various diseases. Notebooks with details of the models creation in 'medi_predict/model notebooks'.",
+            "skills": "Python, Flask, numpy, scikit-learn",
+            "repo": "https://github.com/medi-project-mtu/medi_predict",
+            "website": {
+                "active": false,
+                "url": "",
+                "disabled": true
+            },
+            "img": "medi-predict.png"
         }
     ]
 }
