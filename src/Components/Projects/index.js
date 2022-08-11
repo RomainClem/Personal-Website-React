@@ -55,10 +55,10 @@ const Projects = (props) => {
                     <div className="col-md-4 section-heading text-center px-4 pt-5">
                         <h2 className="display-5 fw-bold pt-5">Projects</h2>
                         <div className="btn-group sticky-top" role="group">
-                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("*" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('*')}>All</Link>
-                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("java" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('java')}>Java</Link>
-                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("web" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</Link>
-                            <Link to="/#Projects" type="button" className={"btn iso-button " + ("python" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('python')}>Python</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button btn-primary " + ("*" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('*')}>All</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button btn-primary " + ("java" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('java')}>Java</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button btn-primary " + ("web" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('web')}>Web</Link>
+                            <Link to="/#Projects" type="button" className={"btn iso-button btn-primary " + ("python" === filterKey ? 'active' : '')} onClick={handleFilterKeyChange('python')}>Python</Link>
                         </div>
                     </div>
                     <div className="isotope col-md-8 pt-5">

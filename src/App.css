@@ -58,7 +58,12 @@ a.home {
     padding-top: 84px;
 }
 
+.border-transparent {
+    border: transparent;
+}
+
 .iso-button {
+    border-color: #a7bcd7;
     background-color: #a7bcd7;
     color: white;
 }
@@ -67,10 +72,13 @@ a.home {
 .iso-button:active,
 .iso-button.active {
     background-color: #e08e25;
+    border-color: #e08e25;
+    color: white;
 }
 
 .iso-button:hover {
     color: white;
+    border-color: #e08e25;
     background-color: #e08e25;
     cursor: pointer;
 }
