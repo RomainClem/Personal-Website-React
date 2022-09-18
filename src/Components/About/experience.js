@@ -42,7 +42,7 @@ const Experience = () => {
                     <div className="col-lg-3">
                         <div className="orange-bg-transparent mt-2">
                             <div className="m-0 ps-1 date-fit font-monospace text-white text-center">
-                                Jan 2022 – Present
+                                Jan 2022 – Sep 2022
                             </div>
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
