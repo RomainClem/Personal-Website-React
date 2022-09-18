@@ -62,27 +62,6 @@ a.home {
     border: transparent;
 }
 
-.iso-button {
-    border-color: #a7bcd7;
-    background-color: #a7bcd7;
-    color: white;
-}
-
-.iso-button:focus,
-.iso-button:active,
-.iso-button.active {
-    background-color: #e08e25;
-    border-color: #e08e25;
-    color: white;
-}
-
-.iso-button:hover {
-    color: white;
-    border-color: #e08e25;
-    background-color: #e08e25;
-    cursor: pointer;
-}
-
 .fa-icon {
     transition: color 1s cubic-bezier(.18, .89, .32, 1.28);
     font-size: 14vw;
