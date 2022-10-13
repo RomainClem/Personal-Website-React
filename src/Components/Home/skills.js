@@ -18,7 +18,7 @@ class Skills extends Component {
                                 <div className="col col-12 col-sm-4">
                                     <FontAwesomeIcon className="fa-skills " icon={faJava} size="4x"/>
                                     <h2>Java</h2>
-                                    <p>Maven, JavaFX (MVC), JPA, JUnit, JDBC</p>
+                                    <p>Spring, Maven, JavaFX, JPA, JUnit, JDBC</p>
                                 </div>
                                 <div className="col col-12 col-sm-4">
                                     <FontAwesomeIcon className="fa-skills " icon={faDatabase} size="4x"/>
@@ -43,7 +43,7 @@ class Skills extends Component {
                                 <div className="col col-12 col-sm-4">
                                     <FontAwesomeIcon className="fa-skills " icon={faCode} size="4x"/>
                                     <h2>Other</h2>
-                                    <p>C#, AWS, Jenkins, Agile</p>
+                                    <p>C, C#, AWS, Jenkins, Agile</p>
                                 </div>
                                 {/* <div className="col col-12 col-sm-4">
                                     <img src={CLogo} className="fa-skills mx-lg-auto" alt="C programing language Logo" />
