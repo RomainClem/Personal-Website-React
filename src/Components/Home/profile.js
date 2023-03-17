@@ -27,10 +27,12 @@ class Profile extends Component {
                                 </h5>
                             </div>
                             <h2 className="display-6 fw-bold mb-3">
-                                Student Software Engineer
+                                Software Engineer
                             </h2>
                             <p className="fs-5">
-                                I'm a 4<sup>th</sup> year <b>Software Engineer</b> student doing a Bachelor of Science &#40;Honours&#41; at <a rel="noopener noreferrer" target="_blank" className="home mtu px-1" href="https://www.mtu.ie/">MTU Cork</a>.
+                                I'm a 4<sup>th</sup> year <b>Software Engineer</b> student doing a Bachelor of Science &#40;Honours&#41; 
+                                at <a rel="noopener noreferrer" target="_blank" className="home mtu px-1" href="https://www.mtu.ie/">MTU Cork</a> and
+                                intern at <a rel="noopener noreferrer" target="_blank" className="home mtu px-1" href="https://www.huawei.com/">Huawei</a>.
                             </p>
                         </div>
                     </div>

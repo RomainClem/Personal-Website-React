@@ -23,7 +23,8 @@ const Education = () => {
                         <div className="fs-5 pt-2">
                             <ul>
                                 <li className="about-list"><b>1st, 2nd & 3rd Year</b> - First-Class Honours (Cumulative Average <b>89%</b>)</li>
-                                <li className="about-list"><b>Courses</b>: Data Structures and Algorithms, SQL & NoSQL, Distributed system, Discrete Maths, Agile methodologies</li>
+                                <li className="about-list"><b>Courses</b>: Data Structures and Algorithms, SQL & NoSQL, Distributed system, Discrete Maths, Agile methodologies
+                                , Machine Learning, Big Data, Microservices</li>
                                 <li className="about-list"><b>Honors</b>: Alejandro de la Flor Trellix Scholarship - 2021</li>
                             </ul>
                         </div>

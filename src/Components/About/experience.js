@@ -15,6 +15,38 @@ const Experience = () => {
             <div className="col-lg-3"></div>
             </div>
             
+                <div className="row flex-lg-row align-items-center">
+                    <div className="bio col-lg-9 mx-auto">
+                        <div className="orange-bg-transparent mt-4">
+                            <h4 className="m-0 ps-1 text-white">
+                                Huawei Ireland Research Centre
+                            </h4>
+                        </div>
+                        <div className="blue-bg-light-transparent mt-2">
+                            <h5 className="m-0 ps-1 text-white fst-italic">
+                                Intern Software Engineer
+                            </h5>
+                        </div>
+                        <div className="fs-5 pt-2">
+                            <ul>
+                                <li className="about-list">Worked within the SRE lab on the deployment of a new <b>load balancer</b> technology for Huawei Cloud.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="col-lg-3">
+                        <div className="orange-bg-transparent mt-2">
+                            <div className="m-0 ps-1 date-fit font-monospace text-white text-center">
+                                Jan 2023 – Present
+                            </div>
+                        </div>
+                        <div className="blue-bg-light-transparent mt-2">
+                            <h4 className="m-0 ps-1 font-monospace text-white text-center">
+                                Dublin, Ireland
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+
             <div className="row flex-lg-row align-items-center">
                     <div className="bio col-lg-9 mx-auto">
                         <div className="orange-bg-transparent mt-4">
@@ -24,7 +56,7 @@ const Experience = () => {
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
                             <h5 className="m-0 ps-1 text-white fst-italic">
-                                Intern Software Developer
+                                Intern Software Engineer
                             </h5>
                         </div>
                         <div className="fs-5 pt-2">
