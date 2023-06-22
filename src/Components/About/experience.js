@@ -94,7 +94,7 @@ const Experience = () => {
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
                             <h5 className="m-0 ps-1 text-white fst-italic">
-                                Customer Technical Support
+                                Technical Support
                             </h5>
                         </div>
                         <div className="fs-5 pt-2">

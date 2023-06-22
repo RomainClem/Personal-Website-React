@@ -22,9 +22,9 @@ const Education = () => {
                         </div>
                         <div className="fs-5 pt-2">
                             <ul>
-                                <li className="about-list"><b>1st, 2nd & 3rd Year</b> - First-Class Honours (Cumulative Average <b>89%</b>)</li>
+                                <li className="about-list"><b>1st, 2nd, 3rd & 4th Year</b> - First-Class Honours (equivalent: 4.0 GPA ∼ Grade 12)</li>
                                 <li className="about-list"><b>Courses</b>: Data Structures and Algorithms, SQL & NoSQL, Distributed system, Discrete Maths, Agile methodologies
-                                , Machine Learning, Big Data, Microservices</li>
+                                , Machine Learning, Big Data, Microservices architecture</li>
                                 <li className="about-list"><b>Honors</b>: Alejandro de la Flor Trellix Scholarship - 2021</li>
                             </ul>
                         </div>
@@ -32,7 +32,7 @@ const Education = () => {
                     <div className="col-lg-3">
                         <div className="orange-bg-transparent mt-2">
                             <div className="m-0 ps-1 date-fit font-monospace text-white text-center">
-                                Sep 2019 – Present
+                                Sep 2019 – May 2023
                             </div>
                         </div>
                         <div className="blue-bg-light-transparent mt-2">
