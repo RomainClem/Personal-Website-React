@@ -37,16 +37,16 @@ class Profile extends Component {
                                 intern at <a rel="noopener noreferrer" target="_blank" className="home mtu px-1" href="https://www.huawei.com/">Huawei</a>.
                             </p> */}
               <p className="fs-5">
-                I'm a <b>Software Engineer intern</b> at{" "}
+                I'm a <b>System Developer</b> at{" "}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
                   className="home mtu px-1"
-                  href="https://www.huawei.com/"
+                  href="https://www.nne.com/"
                 >
-                  Huawei
+                  Novo Nordisk Engineering 
                 </a>{" "}
-                and a recent graduate from{" "}
+                and a graduate from{" "}
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
